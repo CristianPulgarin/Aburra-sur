@@ -1,0 +1,1496 @@
+{
+  "nodes": {
+    "1": {
+      "lat": 6.2518,
+      "lon": -75.5636,
+      "name": "Av. Oriental con San Juan (Cl 44 x Cra 46)"
+    },
+    "2": {
+      "lat": 6.2525,
+      "lon": -75.567,
+      "name": "San Juan con Carabobo (Cl 44 x Cra 52)"
+    },
+    "3": {
+      "lat": 6.256,
+      "lon": -75.5645,
+      "name": "Av. Oriental con Colombia (Cl 50 x Cra 46)"
+    },
+    "4": {
+      "lat": 6.257,
+      "lon": -75.5695,
+      "name": "Colombia con Carabobo (Cl 50 x Cra 52)"
+    },
+    "5": {
+      "lat": 6.2465,
+      "lon": -75.569,
+      "name": "San Diego (Glorieta San Diego / Las Palmas)"
+    },
+    "6": {
+      "lat": 6.242,
+      "lon": -75.574,
+      "name": "Puente Guayaquil / Av. Regional"
+    },
+    "7": {
+      "lat": 6.248,
+      "lon": -75.5765,
+      "name": "San Juan con Autopista Sur (Cl 44)"
+    },
+    "8": {
+      "lat": 6.255,
+      "lon": -75.578,
+      "name": "Autopista Sur con Colombia (Puente Colombia)"
+    },
+    "9": {
+      "lat": 6.267,
+      "lon": -75.575,
+      "name": "Punto Cero Norte (Cl 67 Barranquilla x Autopista)"
+    },
+    "10": {
+      "lat": 6.235,
+      "lon": -75.577,
+      "name": "Av. Regional con Calle 33"
+    },
+    "11": {
+      "lat": 6.208,
+      "lon": -75.576,
+      "name": "Puente 4 Sur (Gilberto Echeverri x Av. Regional)"
+    },
+    "12": {
+      "lat": 6.195,
+      "lon": -75.578,
+      "name": "La Aguacatala (Av. Regional x Cl 12 Sur)"
+    },
+    "13": {
+      "lat": 6.248,
+      "lon": -75.586,
+      "name": "San Juan con Cra 65"
+    },
+    "14": {
+      "lat": 6.246,
+      "lon": -75.592,
+      "name": "San Juan con Cra 70 (Glorieta de la 70)"
+    },
+    "15": {
+      "lat": 6.244,
+      "lon": -75.602,
+      "name": "San Juan con Cra 80"
+    },
+    "16": {
+      "lat": 6.253,
+      "lon": -75.591,
+      "name": "Estadio / Colombia con Cra 70"
+    },
+    "17": {
+      "lat": 6.236,
+      "lon": -75.587,
+      "name": "Glorieta de la 33 con Cra 65"
+    },
+    "18": {
+      "lat": 6.234,
+      "lon": -75.593,
+      "name": "Glorieta de Bulerías (Cl 33 x Nutibara)"
+    },
+    "19": {
+      "lat": 6.231,
+      "lon": -75.604,
+      "name": "Calle 33 con Cra 80"
+    },
+    "20": {
+      "lat": 6.223,
+      "lon": -75.602,
+      "name": "Belén Parque (Cl 30 x Cra 76)"
+    },
+    "21": {
+      "lat": 6.222,
+      "lon": -75.592,
+      "name": "Cl 30 con Cra 65"
+    },
+    "22": {
+      "lat": 6.209,
+      "lon": -75.568,
+      "name": "Parque El Poblado (Cra 43A x Cl 10)"
+    },
+    "23": {
+      "lat": 6.21,
+      "lon": -75.572,
+      "name": "Av. Las Vegas con Cl 10 (Cra 48 x Cl 10)"
+    },
+    "24": {
+      "lat": 6.2085,
+      "lon": -75.565,
+      "name": "Provenza (Cra 35 x Cl 10)"
+    },
+    "25": {
+      "lat": 6.198,
+      "lon": -75.571,
+      "name": "Santa Fe / Milla de Oro (Cra 43A x Cl 7)"
+    },
+    "26": {
+      "lat": 6.196,
+      "lon": -75.574,
+      "name": "Av. Las Vegas con Cl 4 Sur"
+    },
+    "27": {
+      "lat": 6.217,
+      "lon": -75.583,
+      "name": "Av. Guayabal con Cl 10 (Cra 52 x Cl 10)"
+    },
+    "28": {
+      "lat": 6.225,
+      "lon": -75.581,
+      "name": "Av. Guayabal con Cl 30 (Cra 52 x Cl 30)"
+    },
+    "29": {
+      "lat": 6.273,
+      "lon": -75.566,
+      "name": "Aranjuez / Carabobo Norte con Cl 77"
+    },
+    "30": {
+      "lat": 6.275,
+      "lon": -75.575,
+      "name": "Castilla / Cra 65 con Cl 77"
+    },
+    "31": {
+      "lat": 6.285,
+      "lon": -75.571,
+      "name": "Puente Madre Laura (Cra 65 x Autopista Norte)"
+    },
+    "32": {
+      "lat": 6.278,
+      "lon": -75.585,
+      "name": "Robledo / Cl 65 con Cra 80"
+    },
+    "33": {
+      "lat": 6.255,
+      "lon": -75.599,
+      "name": "Av. Colombia con Cra 80 (Calasanz / La Floresta)"
+    },
+    "34": {
+      "lat": 6.264,
+      "lon": -75.594,
+      "name": "Cra 80 con Calle 65 (Facultad de Minas / Robledo)"
+    },
+    "35": {
+      "lat": 6.273,
+      "lon": -75.59,
+      "name": "Parque de Robledo (Cra 80 con Calle 75)"
+    },
+    "36": {
+      "lat": 6.2804,
+      "lon": -75.5912,
+      "name": "Tecnológico de Antioquia TdeA (Robledo)"
+    },
+    "37": {
+      "lat": 6.262,
+      "lon": -75.587,
+      "name": "Calle 65 con Cra 70 (Iguaná / San Germán)"
+    },
+    "38": {
+      "lat": 6.261,
+      "lon": -75.58,
+      "name": "Calle 65 con Cra 65 (San Germán / Univ. Nacional)"
+    },
+    "39": {
+      "lat": 6.255,
+      "lon": -75.585,
+      "name": "Av. Colombia con Cra 65 (Carlos E. Restrepo)"
+    },
+    "40": {
+      "lat": 6.215,
+      "lon": -75.602,
+      "name": "Cra 80 con Calle 30 (La Palma / Belén)"
+    },
+    "41": {
+      "lat": 6.195,
+      "lon": -75.59,
+      "name": "Cra 80 con Calle 12 Sur (La Aguacatala Occidente)"
+    },
+    "42": {
+      "lat": 6.241,
+      "lon": -75.595,
+      "name": "Av. Nutibara con San Juan (Laureles)"
+    }
+  },
+  "edges": [
+    {
+      "edge_id": 1,
+      "from_node": 15,
+      "to_node": 14,
+      "name": "Av. San Juan (Cra 80 a Cra 70)",
+      "length_m": 1127.5,
+      "max_speed": 50,
+      "risk_score": 2323.0,
+      "incident_count": 1144
+    },
+    {
+      "edge_id": 2,
+      "from_node": 14,
+      "to_node": 15,
+      "name": "Av. San Juan (Cra 80 a Cra 70) (Sentido Opuesto)",
+      "length_m": 1127.5,
+      "max_speed": 50,
+      "risk_score": 2323.0,
+      "incident_count": 1144
+    },
+    {
+      "edge_id": 3,
+      "from_node": 14,
+      "to_node": 13,
+      "name": "Av. San Juan (Cra 70 a Cra 65)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 2355.0,
+      "incident_count": 1176
+    },
+    {
+      "edge_id": 4,
+      "from_node": 13,
+      "to_node": 14,
+      "name": "Av. San Juan (Cra 70 a Cra 65) (Sentido Opuesto)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 2355.0,
+      "incident_count": 1176
+    },
+    {
+      "edge_id": 5,
+      "from_node": 13,
+      "to_node": 7,
+      "name": "Av. San Juan (Cra 65 a Autopista)",
+      "length_m": 1050.1,
+      "max_speed": 60,
+      "risk_score": 7130.0,
+      "incident_count": 3680
+    },
+    {
+      "edge_id": 6,
+      "from_node": 7,
+      "to_node": 13,
+      "name": "Av. San Juan (Cra 65 a Autopista) (Sentido Opuesto)",
+      "length_m": 1050.1,
+      "max_speed": 60,
+      "risk_score": 7130.0,
+      "incident_count": 3680
+    },
+    {
+      "edge_id": 7,
+      "from_node": 7,
+      "to_node": 2,
+      "name": "Av. San Juan (Puente San Juan a Carabobo)",
+      "length_m": 1163.2,
+      "max_speed": 50,
+      "risk_score": 4325.0,
+      "incident_count": 2386
+    },
+    {
+      "edge_id": 8,
+      "from_node": 2,
+      "to_node": 7,
+      "name": "Av. San Juan (Puente San Juan a Carabobo) (Sentido Opuesto)",
+      "length_m": 1163.2,
+      "max_speed": 50,
+      "risk_score": 4325.0,
+      "incident_count": 2386
+    },
+    {
+      "edge_id": 9,
+      "from_node": 2,
+      "to_node": 1,
+      "name": "Av. San Juan (Carabobo a Av. Oriental)",
+      "length_m": 383.8,
+      "max_speed": 40,
+      "risk_score": 2913.0,
+      "incident_count": 1413
+    },
+    {
+      "edge_id": 10,
+      "from_node": 1,
+      "to_node": 2,
+      "name": "Av. San Juan (Carabobo a Av. Oriental) (Sentido Opuesto)",
+      "length_m": 383.8,
+      "max_speed": 40,
+      "risk_score": 2913.0,
+      "incident_count": 1413
+    },
+    {
+      "edge_id": 11,
+      "from_node": 4,
+      "to_node": 3,
+      "name": "Av. Colombia (Carabobo a Av. Oriental)",
+      "length_m": 563.7,
+      "max_speed": 35,
+      "risk_score": 5657.0,
+      "incident_count": 2607
+    },
+    {
+      "edge_id": 12,
+      "from_node": 3,
+      "to_node": 4,
+      "name": "Av. Colombia (Carabobo a Av. Oriental) (Sentido Opuesto)",
+      "length_m": 563.7,
+      "max_speed": 35,
+      "risk_score": 5657.0,
+      "incident_count": 2607
+    },
+    {
+      "edge_id": 13,
+      "from_node": 8,
+      "to_node": 4,
+      "name": "Av. Colombia (Puente Colombia a Carabobo)",
+      "length_m": 965.5,
+      "max_speed": 40,
+      "risk_score": 6385.0,
+      "incident_count": 3166
+    },
+    {
+      "edge_id": 14,
+      "from_node": 4,
+      "to_node": 8,
+      "name": "Av. Colombia (Puente Colombia a Carabobo) (Sentido Opuesto)",
+      "length_m": 965.5,
+      "max_speed": 40,
+      "risk_score": 6385.0,
+      "incident_count": 3166
+    },
+    {
+      "edge_id": 15,
+      "from_node": 39,
+      "to_node": 8,
+      "name": "Av. Colombia (Cra 65 a Autopista)",
+      "length_m": 773.7,
+      "max_speed": 50,
+      "risk_score": 3805.0,
+      "incident_count": 2028
+    },
+    {
+      "edge_id": 16,
+      "from_node": 8,
+      "to_node": 39,
+      "name": "Av. Colombia (Cra 65 a Autopista) (Sentido Opuesto)",
+      "length_m": 773.7,
+      "max_speed": 50,
+      "risk_score": 3805.0,
+      "incident_count": 2028
+    },
+    {
+      "edge_id": 17,
+      "from_node": 16,
+      "to_node": 39,
+      "name": "Av. Colombia (Cra 70 Estadio a Cra 65)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 1105.0,
+      "incident_count": 531
+    },
+    {
+      "edge_id": 18,
+      "from_node": 39,
+      "to_node": 16,
+      "name": "Av. Colombia (Cra 70 Estadio a Cra 65) (Sentido Opuesto)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 1105.0,
+      "incident_count": 531
+    },
+    {
+      "edge_id": 19,
+      "from_node": 33,
+      "to_node": 16,
+      "name": "Av. Colombia (Cra 80 Calasanz a Cra 70)",
+      "length_m": 911.8,
+      "max_speed": 50,
+      "risk_score": 1106.0,
+      "incident_count": 551
+    },
+    {
+      "edge_id": 20,
+      "from_node": 16,
+      "to_node": 33,
+      "name": "Av. Colombia (Cra 80 Calasanz a Cra 70) (Sentido Opuesto)",
+      "length_m": 911.8,
+      "max_speed": 50,
+      "risk_score": 1106.0,
+      "incident_count": 551
+    },
+    {
+      "edge_id": 21,
+      "from_node": 1,
+      "to_node": 3,
+      "name": "Av. Oriental (San Juan a Colombia)",
+      "length_m": 477.5,
+      "max_speed": 40,
+      "risk_score": 6861.0,
+      "incident_count": 3424
+    },
+    {
+      "edge_id": 22,
+      "from_node": 3,
+      "to_node": 1,
+      "name": "Av. Oriental (San Juan a Colombia) (Sentido Opuesto)",
+      "length_m": 477.5,
+      "max_speed": 40,
+      "risk_score": 6861.0,
+      "incident_count": 3424
+    },
+    {
+      "edge_id": 23,
+      "from_node": 1,
+      "to_node": 5,
+      "name": "Av. Oriental (San Juan a San Diego)",
+      "length_m": 838.8,
+      "max_speed": 40,
+      "risk_score": 7782.0,
+      "incident_count": 4293
+    },
+    {
+      "edge_id": 24,
+      "from_node": 5,
+      "to_node": 1,
+      "name": "Av. Oriental (San Juan a San Diego) (Sentido Opuesto)",
+      "length_m": 838.8,
+      "max_speed": 40,
+      "risk_score": 7782.0,
+      "incident_count": 4293
+    },
+    {
+      "edge_id": 25,
+      "from_node": 19,
+      "to_node": 18,
+      "name": "Av. 33 (Cra 80 a Bulerias)",
+      "length_m": 1260.8,
+      "max_speed": 50,
+      "risk_score": 4045.0,
+      "incident_count": 2095
+    },
+    {
+      "edge_id": 26,
+      "from_node": 18,
+      "to_node": 19,
+      "name": "Av. 33 (Cra 80 a Bulerias) (Sentido Opuesto)",
+      "length_m": 1260.8,
+      "max_speed": 50,
+      "risk_score": 4045.0,
+      "incident_count": 2095
+    },
+    {
+      "edge_id": 27,
+      "from_node": 18,
+      "to_node": 17,
+      "name": "Av. 33 (Bulerias a Cra 65)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 2406.0,
+      "incident_count": 1140
+    },
+    {
+      "edge_id": 28,
+      "from_node": 17,
+      "to_node": 18,
+      "name": "Av. 33 (Bulerias a Cra 65) (Sentido Opuesto)",
+      "length_m": 699.5,
+      "max_speed": 50,
+      "risk_score": 2406.0,
+      "incident_count": 1140
+    },
+    {
+      "edge_id": 29,
+      "from_node": 17,
+      "to_node": 10,
+      "name": "Av. 33 (Cra 65 a Autopista Sur)",
+      "length_m": 1110.9,
+      "max_speed": 60,
+      "risk_score": 898.0,
+      "incident_count": 428
+    },
+    {
+      "edge_id": 30,
+      "from_node": 10,
+      "to_node": 17,
+      "name": "Av. 33 (Cra 65 a Autopista Sur) (Sentido Opuesto)",
+      "length_m": 1110.9,
+      "max_speed": 60,
+      "risk_score": 898.0,
+      "incident_count": 428
+    },
+    {
+      "edge_id": 31,
+      "from_node": 10,
+      "to_node": 5,
+      "name": "Av. 33 (Puente de la 33 a San Diego)",
+      "length_m": 1554.7,
+      "max_speed": 60,
+      "risk_score": 4303.0,
+      "incident_count": 2268
+    },
+    {
+      "edge_id": 32,
+      "from_node": 5,
+      "to_node": 10,
+      "name": "Av. 33 (Puente de la 33 a San Diego) (Sentido Opuesto)",
+      "length_m": 1554.7,
+      "max_speed": 60,
+      "risk_score": 4303.0,
+      "incident_count": 2268
+    },
+    {
+      "edge_id": 33,
+      "from_node": 12,
+      "to_node": 11,
+      "name": "Av. Regional (Aguacatala a Puente 4 Sur)",
+      "length_m": 1462.3,
+      "max_speed": 80,
+      "risk_score": 2765.0,
+      "incident_count": 1291
+    },
+    {
+      "edge_id": 34,
+      "from_node": 11,
+      "to_node": 10,
+      "name": "Av. Regional (Puente 4 Sur a Cl 33)",
+      "length_m": 3004.3,
+      "max_speed": 80,
+      "risk_score": 2726.0,
+      "incident_count": 1426
+    },
+    {
+      "edge_id": 35,
+      "from_node": 10,
+      "to_node": 6,
+      "name": "Av. Regional (Cl 33 a Guayaquil)",
+      "length_m": 846.1,
+      "max_speed": 80,
+      "risk_score": 7304.0,
+      "incident_count": 3881
+    },
+    {
+      "edge_id": 36,
+      "from_node": 6,
+      "to_node": 7,
+      "name": "Av. Regional (Guayaquil a San Juan)",
+      "length_m": 722.1,
+      "max_speed": 80,
+      "risk_score": 8092.0,
+      "incident_count": 4365
+    },
+    {
+      "edge_id": 37,
+      "from_node": 7,
+      "to_node": 8,
+      "name": "Av. Regional (San Juan a Colombia)",
+      "length_m": 795.8,
+      "max_speed": 80,
+      "risk_score": 7459.0,
+      "incident_count": 3821
+    },
+    {
+      "edge_id": 38,
+      "from_node": 8,
+      "to_node": 9,
+      "name": "Av. Regional (Colombia a Barranquilla / Punto Cero)",
+      "length_m": 1374.9,
+      "max_speed": 80,
+      "risk_score": 3071.0,
+      "incident_count": 1410
+    },
+    {
+      "edge_id": 39,
+      "from_node": 9,
+      "to_node": 31,
+      "name": "Autopista Norte (Punto Cero a Madre Laura)",
+      "length_m": 2049.8,
+      "max_speed": 80,
+      "risk_score": 8953.0,
+      "incident_count": 4575
+    },
+    {
+      "edge_id": 40,
+      "from_node": 31,
+      "to_node": 9,
+      "name": "Autopista Sur (Madre Laura a Punto Cero)",
+      "length_m": 2049.8,
+      "max_speed": 80,
+      "risk_score": 8953.0,
+      "incident_count": 4575
+    },
+    {
+      "edge_id": 41,
+      "from_node": 9,
+      "to_node": 8,
+      "name": "Autopista Sur (Punto Cero a Colombia)",
+      "length_m": 1374.9,
+      "max_speed": 80,
+      "risk_score": 3071.0,
+      "incident_count": 1410
+    },
+    {
+      "edge_id": 42,
+      "from_node": 8,
+      "to_node": 7,
+      "name": "Autopista Sur (Colombia a San Juan)",
+      "length_m": 795.8,
+      "max_speed": 80,
+      "risk_score": 7459.0,
+      "incident_count": 3821
+    },
+    {
+      "edge_id": 43,
+      "from_node": 7,
+      "to_node": 6,
+      "name": "Autopista Sur (San Juan a Guayaquil)",
+      "length_m": 722.1,
+      "max_speed": 80,
+      "risk_score": 8092.0,
+      "incident_count": 4365
+    },
+    {
+      "edge_id": 44,
+      "from_node": 6,
+      "to_node": 10,
+      "name": "Autopista Sur (Guayaquil a Cl 33)",
+      "length_m": 846.1,
+      "max_speed": 80,
+      "risk_score": 7304.0,
+      "incident_count": 3881
+    },
+    {
+      "edge_id": 45,
+      "from_node": 10,
+      "to_node": 11,
+      "name": "Autopista Sur (Cl 33 a Puente 4 Sur)",
+      "length_m": 3004.3,
+      "max_speed": 80,
+      "risk_score": 2726.0,
+      "incident_count": 1426
+    },
+    {
+      "edge_id": 46,
+      "from_node": 11,
+      "to_node": 12,
+      "name": "Autopista Sur (Puente 4 Sur a Aguacatala)",
+      "length_m": 1462.3,
+      "max_speed": 80,
+      "risk_score": 2765.0,
+      "incident_count": 1291
+    },
+    {
+      "edge_id": 47,
+      "from_node": 5,
+      "to_node": 23,
+      "name": "Av. Las Vegas (San Diego a Cl 10)",
+      "length_m": 4072.1,
+      "max_speed": 60,
+      "risk_score": 3155.0,
+      "incident_count": 1680
+    },
+    {
+      "edge_id": 48,
+      "from_node": 23,
+      "to_node": 5,
+      "name": "Av. Las Vegas (San Diego a Cl 10) (Sentido Opuesto)",
+      "length_m": 4072.1,
+      "max_speed": 60,
+      "risk_score": 3155.0,
+      "incident_count": 1680
+    },
+    {
+      "edge_id": 49,
+      "from_node": 23,
+      "to_node": 26,
+      "name": "Av. Las Vegas (Cl 10 a Cl 4 Sur)",
+      "length_m": 1572.4,
+      "max_speed": 60,
+      "risk_score": 821.0,
+      "incident_count": 503
+    },
+    {
+      "edge_id": 50,
+      "from_node": 26,
+      "to_node": 23,
+      "name": "Av. Las Vegas (Cl 10 a Cl 4 Sur) (Sentido Opuesto)",
+      "length_m": 1572.4,
+      "max_speed": 60,
+      "risk_score": 821.0,
+      "incident_count": 503
+    },
+    {
+      "edge_id": 51,
+      "from_node": 26,
+      "to_node": 12,
+      "name": "Av. Las Vegas (Cl 4 Sur a Aguacatala)",
+      "length_m": 455.9,
+      "max_speed": 60,
+      "risk_score": 2032.0,
+      "incident_count": 1235
+    },
+    {
+      "edge_id": 52,
+      "from_node": 12,
+      "to_node": 26,
+      "name": "Av. Las Vegas (Cl 4 Sur a Aguacatala) (Sentido Opuesto)",
+      "length_m": 455.9,
+      "max_speed": 60,
+      "risk_score": 2032.0,
+      "incident_count": 1235
+    },
+    {
+      "edge_id": 53,
+      "from_node": 5,
+      "to_node": 22,
+      "name": "Av. El Poblado (San Diego a Parque Poblado)",
+      "length_m": 4171.3,
+      "max_speed": 40,
+      "risk_score": 1439.0,
+      "incident_count": 766
+    },
+    {
+      "edge_id": 54,
+      "from_node": 22,
+      "to_node": 5,
+      "name": "Av. El Poblado (San Diego a Parque Poblado) (Sentido Opuesto)",
+      "length_m": 4171.3,
+      "max_speed": 40,
+      "risk_score": 1439.0,
+      "incident_count": 766
+    },
+    {
+      "edge_id": 55,
+      "from_node": 22,
+      "to_node": 25,
+      "name": "Av. El Poblado (Parque Poblado a Milla de Oro)",
+      "length_m": 1267.3,
+      "max_speed": 40,
+      "risk_score": 1176.0,
+      "incident_count": 736
+    },
+    {
+      "edge_id": 56,
+      "from_node": 25,
+      "to_node": 22,
+      "name": "Av. El Poblado (Parque Poblado a Milla de Oro) (Sentido Opuesto)",
+      "length_m": 1267.3,
+      "max_speed": 40,
+      "risk_score": 1176.0,
+      "incident_count": 736
+    },
+    {
+      "edge_id": 57,
+      "from_node": 22,
+      "to_node": 24,
+      "name": "Calle 10 (Parque Poblado a Provenza)",
+      "length_m": 336.3,
+      "max_speed": 30,
+      "risk_score": 1866.0,
+      "incident_count": 1157
+    },
+    {
+      "edge_id": 58,
+      "from_node": 24,
+      "to_node": 22,
+      "name": "Calle 10 (Parque Poblado a Provenza) (Sentido Opuesto)",
+      "length_m": 336.3,
+      "max_speed": 30,
+      "risk_score": 1866.0,
+      "incident_count": 1157
+    },
+    {
+      "edge_id": 59,
+      "from_node": 23,
+      "to_node": 22,
+      "name": "Calle 10 (Las Vegas a Parque Poblado)",
+      "length_m": 455.9,
+      "max_speed": 40,
+      "risk_score": 3008.0,
+      "incident_count": 1778
+    },
+    {
+      "edge_id": 60,
+      "from_node": 22,
+      "to_node": 23,
+      "name": "Calle 10 (Las Vegas a Parque Poblado) (Sentido Opuesto)",
+      "length_m": 455.9,
+      "max_speed": 40,
+      "risk_score": 3008.0,
+      "incident_count": 1778
+    },
+    {
+      "edge_id": 61,
+      "from_node": 11,
+      "to_node": 26,
+      "name": "Puente 4 Sur a Las Vegas",
+      "length_m": 1352.5,
+      "max_speed": 50,
+      "risk_score": 846.0,
+      "incident_count": 531
+    },
+    {
+      "edge_id": 62,
+      "from_node": 26,
+      "to_node": 11,
+      "name": "Puente 4 Sur a Las Vegas (Sentido Opuesto)",
+      "length_m": 1352.5,
+      "max_speed": 50,
+      "risk_score": 846.0,
+      "incident_count": 531
+    },
+    {
+      "edge_id": 63,
+      "from_node": 10,
+      "to_node": 28,
+      "name": "Av. Guayabal hacia Cl 30",
+      "length_m": 1196.6,
+      "max_speed": 50,
+      "risk_score": 4212.0,
+      "incident_count": 2056
+    },
+    {
+      "edge_id": 64,
+      "from_node": 28,
+      "to_node": 10,
+      "name": "Av. Guayabal hacia Cl 30 (Sentido Opuesto)",
+      "length_m": 1196.6,
+      "max_speed": 50,
+      "risk_score": 4212.0,
+      "incident_count": 2056
+    },
+    {
+      "edge_id": 65,
+      "from_node": 28,
+      "to_node": 27,
+      "name": "Av. Guayabal (Cl 30 a Cl 10)",
+      "length_m": 916.6,
+      "max_speed": 50,
+      "risk_score": 1372.0,
+      "incident_count": 637
+    },
+    {
+      "edge_id": 66,
+      "from_node": 27,
+      "to_node": 28,
+      "name": "Av. Guayabal (Cl 30 a Cl 10) (Sentido Opuesto)",
+      "length_m": 916.6,
+      "max_speed": 50,
+      "risk_score": 1372.0,
+      "incident_count": 637
+    },
+    {
+      "edge_id": 67,
+      "from_node": 28,
+      "to_node": 21,
+      "name": "Calle 30 (Guayabal a Cra 65)",
+      "length_m": 1260.9,
+      "max_speed": 50,
+      "risk_score": 1730.0,
+      "incident_count": 752
+    },
+    {
+      "edge_id": 68,
+      "from_node": 21,
+      "to_node": 28,
+      "name": "Calle 30 (Guayabal a Cra 65) (Sentido Opuesto)",
+      "length_m": 1260.9,
+      "max_speed": 50,
+      "risk_score": 1730.0,
+      "incident_count": 752
+    },
+    {
+      "edge_id": 69,
+      "from_node": 21,
+      "to_node": 20,
+      "name": "Calle 30 (Cra 65 a Parque Belén)",
+      "length_m": 1111.0,
+      "max_speed": 40,
+      "risk_score": 2322.0,
+      "incident_count": 1045
+    },
+    {
+      "edge_id": 70,
+      "from_node": 20,
+      "to_node": 21,
+      "name": "Calle 30 (Cra 65 a Parque Belén) (Sentido Opuesto)",
+      "length_m": 1111.0,
+      "max_speed": 40,
+      "risk_score": 2322.0,
+      "incident_count": 1045
+    },
+    {
+      "edge_id": 71,
+      "from_node": 20,
+      "to_node": 40,
+      "name": "Calle 30 (Parque Belén a Cra 80 La Palma)",
+      "length_m": 889.6,
+      "max_speed": 40,
+      "risk_score": 1406.0,
+      "incident_count": 685
+    },
+    {
+      "edge_id": 72,
+      "from_node": 40,
+      "to_node": 20,
+      "name": "Calle 30 (Parque Belén a Cra 80 La Palma) (Sentido Opuesto)",
+      "length_m": 889.6,
+      "max_speed": 40,
+      "risk_score": 1406.0,
+      "incident_count": 685
+    },
+    {
+      "edge_id": 73,
+      "from_node": 41,
+      "to_node": 40,
+      "name": "Av. 80 (Aguacatala Occidente a La Palma)",
+      "length_m": 2589.5,
+      "max_speed": 60,
+      "risk_score": 255.0,
+      "incident_count": 125
+    },
+    {
+      "edge_id": 74,
+      "from_node": 40,
+      "to_node": 41,
+      "name": "Av. 80 (Aguacatala Occidente a La Palma) (Sentido Opuesto)",
+      "length_m": 2589.5,
+      "max_speed": 60,
+      "risk_score": 255.0,
+      "incident_count": 125
+    },
+    {
+      "edge_id": 75,
+      "from_node": 40,
+      "to_node": 20,
+      "name": "Av. 80 (La Palma a Parque Belen)",
+      "length_m": 889.6,
+      "max_speed": 50,
+      "risk_score": 1406.0,
+      "incident_count": 685
+    },
+    {
+      "edge_id": 76,
+      "from_node": 20,
+      "to_node": 40,
+      "name": "Av. 80 (La Palma a Parque Belen) (Sentido Opuesto)",
+      "length_m": 889.6,
+      "max_speed": 50,
+      "risk_score": 1406.0,
+      "incident_count": 685
+    },
+    {
+      "edge_id": 77,
+      "from_node": 20,
+      "to_node": 19,
+      "name": "Av. 80 (Belén a Calle 33)",
+      "length_m": 916.6,
+      "max_speed": 50,
+      "risk_score": 2608.0,
+      "incident_count": 1218
+    },
+    {
+      "edge_id": 78,
+      "from_node": 19,
+      "to_node": 20,
+      "name": "Av. 80 (Belén a Calle 33) (Sentido Opuesto)",
+      "length_m": 916.6,
+      "max_speed": 50,
+      "risk_score": 2608.0,
+      "incident_count": 1218
+    },
+    {
+      "edge_id": 79,
+      "from_node": 19,
+      "to_node": 15,
+      "name": "Av. 80 (Calle 33 a San Juan)",
+      "length_m": 1462.3,
+      "max_speed": 50,
+      "risk_score": 2784.0,
+      "incident_count": 1449
+    },
+    {
+      "edge_id": 80,
+      "from_node": 15,
+      "to_node": 19,
+      "name": "Av. 80 (Calle 33 a San Juan) (Sentido Opuesto)",
+      "length_m": 1462.3,
+      "max_speed": 50,
+      "risk_score": 2784.0,
+      "incident_count": 1449
+    },
+    {
+      "edge_id": 81,
+      "from_node": 15,
+      "to_node": 33,
+      "name": "Av. 80 (San Juan a Colombia / Calasanz)",
+      "length_m": 1267.3,
+      "max_speed": 50,
+      "risk_score": 4431.0,
+      "incident_count": 2126
+    },
+    {
+      "edge_id": 82,
+      "from_node": 33,
+      "to_node": 15,
+      "name": "Av. 80 (San Juan a Colombia / Calasanz) (Sentido Opuesto)",
+      "length_m": 1267.3,
+      "max_speed": 50,
+      "risk_score": 4431.0,
+      "incident_count": 2126
+    },
+    {
+      "edge_id": 83,
+      "from_node": 33,
+      "to_node": 34,
+      "name": "Av. 80 (Calasanz a Facultad de Minas)",
+      "length_m": 1143.2,
+      "max_speed": 50,
+      "risk_score": 2985.0,
+      "incident_count": 1376
+    },
+    {
+      "edge_id": 84,
+      "from_node": 34,
+      "to_node": 33,
+      "name": "Av. 80 (Calasanz a Facultad de Minas) (Sentido Opuesto)",
+      "length_m": 1143.2,
+      "max_speed": 50,
+      "risk_score": 2985.0,
+      "incident_count": 1376
+    },
+    {
+      "edge_id": 85,
+      "from_node": 34,
+      "to_node": 32,
+      "name": "Av. 80 (Facultad de Minas a Cl 65 Robledo)",
+      "length_m": 1847.4,
+      "max_speed": 50,
+      "risk_score": 2016.0,
+      "incident_count": 995
+    },
+    {
+      "edge_id": 86,
+      "from_node": 32,
+      "to_node": 34,
+      "name": "Av. 80 (Facultad de Minas a Cl 65 Robledo) (Sentido Opuesto)",
+      "length_m": 1847.4,
+      "max_speed": 50,
+      "risk_score": 2016.0,
+      "incident_count": 995
+    },
+    {
+      "edge_id": 87,
+      "from_node": 32,
+      "to_node": 35,
+      "name": "Cra 80 (Robledo Cl 65 a Parque Robledo)",
+      "length_m": 783.9,
+      "max_speed": 40,
+      "risk_score": 521.0,
+      "incident_count": 233
+    },
+    {
+      "edge_id": 88,
+      "from_node": 35,
+      "to_node": 32,
+      "name": "Cra 80 (Robledo Cl 65 a Parque Robledo) (Sentido Opuesto)",
+      "length_m": 783.9,
+      "max_speed": 40,
+      "risk_score": 521.0,
+      "incident_count": 233
+    },
+    {
+      "edge_id": 89,
+      "from_node": 35,
+      "to_node": 36,
+      "name": "Cra 80 a Tecnologico de Antioquia TdeA",
+      "length_m": 833.5,
+      "max_speed": 40,
+      "risk_score": 1691.0,
+      "incident_count": 757
+    },
+    {
+      "edge_id": 90,
+      "from_node": 36,
+      "to_node": 35,
+      "name": "Cra 80 a Tecnologico de Antioquia TdeA (Sentido Opuesto)",
+      "length_m": 833.5,
+      "max_speed": 40,
+      "risk_score": 1691.0,
+      "incident_count": 757
+    },
+    {
+      "edge_id": 91,
+      "from_node": 38,
+      "to_node": 37,
+      "name": "Calle 65 (Cra 65 a Cra 70 San Germán)",
+      "length_m": 781.7,
+      "max_speed": 50,
+      "risk_score": 1318.0,
+      "incident_count": 628
+    },
+    {
+      "edge_id": 92,
+      "from_node": 37,
+      "to_node": 38,
+      "name": "Calle 65 (Cra 65 a Cra 70 San Germán) (Sentido Opuesto)",
+      "length_m": 781.7,
+      "max_speed": 50,
+      "risk_score": 1318.0,
+      "incident_count": 628
+    },
+    {
+      "edge_id": 93,
+      "from_node": 37,
+      "to_node": 34,
+      "name": "Calle 65 (Cra 70 a Facultad de Minas / Cra 80)",
+      "length_m": 805.0,
+      "max_speed": 50,
+      "risk_score": 2578.0,
+      "incident_count": 1161
+    },
+    {
+      "edge_id": 94,
+      "from_node": 34,
+      "to_node": 37,
+      "name": "Calle 65 (Cra 70 a Facultad de Minas / Cra 80) (Sentido Opuesto)",
+      "length_m": 805.0,
+      "max_speed": 50,
+      "risk_score": 2578.0,
+      "incident_count": 1161
+    },
+    {
+      "edge_id": 95,
+      "from_node": 34,
+      "to_node": 32,
+      "name": "Calle 65 (Facultad de Minas a Robledo)",
+      "length_m": 1847.4,
+      "max_speed": 40,
+      "risk_score": 2016.0,
+      "incident_count": 995
+    },
+    {
+      "edge_id": 96,
+      "from_node": 32,
+      "to_node": 34,
+      "name": "Calle 65 (Facultad de Minas a Robledo) (Sentido Opuesto)",
+      "length_m": 1847.4,
+      "max_speed": 40,
+      "risk_score": 2016.0,
+      "incident_count": 995
+    },
+    {
+      "edge_id": 97,
+      "from_node": 32,
+      "to_node": 36,
+      "name": "Conexión Robledo a Tecnológico de Antioquia TdeA",
+      "length_m": 735.4,
+      "max_speed": 40,
+      "risk_score": 1706.0,
+      "incident_count": 721
+    },
+    {
+      "edge_id": 98,
+      "from_node": 36,
+      "to_node": 32,
+      "name": "Conexión Robledo a Tecnológico de Antioquia TdeA (Sentido Opuesto)",
+      "length_m": 735.4,
+      "max_speed": 40,
+      "risk_score": 1706.0,
+      "incident_count": 721
+    },
+    {
+      "edge_id": 99,
+      "from_node": 13,
+      "to_node": 17,
+      "name": "Cra 65 (San Juan a Cl 33)",
+      "length_m": 1338.9,
+      "max_speed": 50,
+      "risk_score": 2918.0,
+      "incident_count": 1670
+    },
+    {
+      "edge_id": 100,
+      "from_node": 17,
+      "to_node": 13,
+      "name": "Cra 65 (San Juan a Cl 33) (Sentido Opuesto)",
+      "length_m": 1338.9,
+      "max_speed": 50,
+      "risk_score": 2918.0,
+      "incident_count": 1670
+    },
+    {
+      "edge_id": 101,
+      "from_node": 13,
+      "to_node": 39,
+      "name": "Cra 65 (San Juan a Colombia Carlos E)",
+      "length_m": 786.2,
+      "max_speed": 50,
+      "risk_score": 1482.0,
+      "incident_count": 784
+    },
+    {
+      "edge_id": 102,
+      "from_node": 39,
+      "to_node": 13,
+      "name": "Cra 65 (San Juan a Colombia Carlos E) (Sentido Opuesto)",
+      "length_m": 786.2,
+      "max_speed": 50,
+      "risk_score": 1482.0,
+      "incident_count": 784
+    },
+    {
+      "edge_id": 103,
+      "from_node": 39,
+      "to_node": 38,
+      "name": "Cra 65 (Colombia a San Germán / Univ Nacional)",
+      "length_m": 866.3,
+      "max_speed": 50,
+      "risk_score": 2939.0,
+      "incident_count": 1386
+    },
+    {
+      "edge_id": 104,
+      "from_node": 38,
+      "to_node": 39,
+      "name": "Cra 65 (Colombia a San Germán / Univ Nacional) (Sentido Opuesto)",
+      "length_m": 866.3,
+      "max_speed": 50,
+      "risk_score": 2939.0,
+      "incident_count": 1386
+    },
+    {
+      "edge_id": 105,
+      "from_node": 38,
+      "to_node": 9,
+      "name": "Cra 65 a Punto Cero Norte",
+      "length_m": 866.3,
+      "max_speed": 50,
+      "risk_score": 3230.0,
+      "incident_count": 1520
+    },
+    {
+      "edge_id": 106,
+      "from_node": 9,
+      "to_node": 38,
+      "name": "Cra 65 a Punto Cero Norte (Sentido Opuesto)",
+      "length_m": 866.3,
+      "max_speed": 50,
+      "risk_score": 3230.0,
+      "incident_count": 1520
+    },
+    {
+      "edge_id": 107,
+      "from_node": 38,
+      "to_node": 30,
+      "name": "Cra 65 (San Germán a Castilla Cl 77)",
+      "length_m": 1651.9,
+      "max_speed": 50,
+      "risk_score": 1767.0,
+      "incident_count": 842
+    },
+    {
+      "edge_id": 108,
+      "from_node": 30,
+      "to_node": 38,
+      "name": "Cra 65 (San Germán a Castilla Cl 77) (Sentido Opuesto)",
+      "length_m": 1651.9,
+      "max_speed": 50,
+      "risk_score": 1767.0,
+      "incident_count": 842
+    },
+    {
+      "edge_id": 109,
+      "from_node": 14,
+      "to_node": 16,
+      "name": "Cra 70 (San Juan a Estadio)",
+      "length_m": 786.2,
+      "max_speed": 40,
+      "risk_score": 1961.0,
+      "incident_count": 977
+    },
+    {
+      "edge_id": 110,
+      "from_node": 16,
+      "to_node": 14,
+      "name": "Cra 70 (San Juan a Estadio) (Sentido Opuesto)",
+      "length_m": 786.2,
+      "max_speed": 40,
+      "risk_score": 1961.0,
+      "incident_count": 977
+    },
+    {
+      "edge_id": 111,
+      "from_node": 16,
+      "to_node": 37,
+      "name": "Cra 70 (Estadio a Calle 65 San Germán)",
+      "length_m": 1094.1,
+      "max_speed": 40,
+      "risk_score": 1980.0,
+      "incident_count": 1047
+    },
+    {
+      "edge_id": 112,
+      "from_node": 37,
+      "to_node": 16,
+      "name": "Cra 70 (Estadio a Calle 65 San Germán) (Sentido Opuesto)",
+      "length_m": 1094.1,
+      "max_speed": 40,
+      "risk_score": 1980.0,
+      "incident_count": 1047
+    },
+    {
+      "edge_id": 113,
+      "from_node": 14,
+      "to_node": 18,
+      "name": "Nutibara (San Juan a Bulerias)",
+      "length_m": 1338.9,
+      "max_speed": 40,
+      "risk_score": 1366.0,
+      "incident_count": 762
+    },
+    {
+      "edge_id": 114,
+      "from_node": 18,
+      "to_node": 14,
+      "name": "Nutibara (San Juan a Bulerias) (Sentido Opuesto)",
+      "length_m": 1338.9,
+      "max_speed": 40,
+      "risk_score": 1366.0,
+      "incident_count": 762
+    },
+    {
+      "edge_id": 115,
+      "from_node": 18,
+      "to_node": 42,
+      "name": "Nutibara (Bulerías a San Juan Nutibara)",
+      "length_m": 809.2,
+      "max_speed": 40,
+      "risk_score": 1231.0,
+      "incident_count": 613
+    },
+    {
+      "edge_id": 116,
+      "from_node": 42,
+      "to_node": 18,
+      "name": "Nutibara (Bulerías a San Juan Nutibara) (Sentido Opuesto)",
+      "length_m": 809.2,
+      "max_speed": 40,
+      "risk_score": 1231.0,
+      "incident_count": 613
+    },
+    {
+      "edge_id": 117,
+      "from_node": 42,
+      "to_node": 14,
+      "name": "San Juan con Nutibara",
+      "length_m": 647.4,
+      "max_speed": 40,
+      "risk_score": 961.0,
+      "incident_count": 475
+    },
+    {
+      "edge_id": 118,
+      "from_node": 14,
+      "to_node": 42,
+      "name": "San Juan con Nutibara (Sentido Opuesto)",
+      "length_m": 647.4,
+      "max_speed": 40,
+      "risk_score": 961.0,
+      "incident_count": 475
+    },
+    {
+      "edge_id": 119,
+      "from_node": 9,
+      "to_node": 29,
+      "name": "Cl 67 Barranquilla a Carabobo Norte",
+      "length_m": 1197.8,
+      "max_speed": 40,
+      "risk_score": 786.0,
+      "incident_count": 405
+    },
+    {
+      "edge_id": 120,
+      "from_node": 29,
+      "to_node": 9,
+      "name": "Cl 67 Barranquilla a Carabobo Norte (Sentido Opuesto)",
+      "length_m": 1197.8,
+      "max_speed": 40,
+      "risk_score": 786.0,
+      "incident_count": 405
+    },
+    {
+      "edge_id": 121,
+      "from_node": 9,
+      "to_node": 30,
+      "name": "Cl 67 Barranquilla a Castilla (Cra 65)",
+      "length_m": 889.6,
+      "max_speed": 50,
+      "risk_score": 4161.0,
+      "incident_count": 1973
+    },
+    {
+      "edge_id": 122,
+      "from_node": 30,
+      "to_node": 9,
+      "name": "Cl 67 Barranquilla a Castilla (Cra 65) (Sentido Opuesto)",
+      "length_m": 889.6,
+      "max_speed": 50,
+      "risk_score": 4161.0,
+      "incident_count": 1973
+    },
+    {
+      "edge_id": 123,
+      "from_node": 30,
+      "to_node": 31,
+      "name": "Cra 65 a Puente Madre Laura",
+      "length_m": 1196.6,
+      "max_speed": 50,
+      "risk_score": 2730.0,
+      "incident_count": 1162
+    },
+    {
+      "edge_id": 124,
+      "from_node": 31,
+      "to_node": 30,
+      "name": "Cra 65 a Puente Madre Laura (Sentido Opuesto)",
+      "length_m": 1196.6,
+      "max_speed": 50,
+      "risk_score": 2730.0,
+      "incident_count": 1162
+    },
+    {
+      "edge_id": 125,
+      "from_node": 30,
+      "to_node": 32,
+      "name": "Conexión Castilla a Robledo (Cl 65)",
+      "length_m": 1154.5,
+      "max_speed": 40,
+      "risk_score": 3699.0,
+      "incident_count": 1749
+    },
+    {
+      "edge_id": 126,
+      "from_node": 32,
+      "to_node": 30,
+      "name": "Conexión Castilla a Robledo (Cl 65) (Sentido Opuesto)",
+      "length_m": 1154.5,
+      "max_speed": 40,
+      "risk_score": 3699.0,
+      "incident_count": 1749
+    },
+    {
+      "edge_id": 127,
+      "from_node": 12,
+      "to_node": 41,
+      "name": "Calle 12 Sur (Regional a Av 80 Aguacatala)",
+      "length_m": 1326.5,
+      "max_speed": 50,
+      "risk_score": 1905.0,
+      "incident_count": 1022
+    },
+    {
+      "edge_id": 128,
+      "from_node": 41,
+      "to_node": 12,
+      "name": "Calle 12 Sur (Regional a Av 80 Aguacatala) (Sentido Opuesto)",
+      "length_m": 1326.5,
+      "max_speed": 50,
+      "risk_score": 1905.0,
+      "incident_count": 1022
+    }
+  ]
+}

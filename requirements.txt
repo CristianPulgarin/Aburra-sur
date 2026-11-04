@@ -1,0 +1,5 @@
+# Backend AburráSegura (FastAPI) — lo que necesita el servidor en producción
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pandas>=2.2

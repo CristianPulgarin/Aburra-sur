@@ -1,0 +1,1846 @@
+{
+  "metadata": {
+    "title": "Resultados de Benchmarking Masivo y Contraste Asintótico - Fase 4",
+    "project": "PPI Análisis de Algoritmos - TdeA 2026",
+    "phase": "Fase 4 - Experimentación y Validación Empírica",
+    "hardware": {
+      "os": "Windows-11-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "11",
+      "architecture": "64bit",
+      "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+      "cpu_count_logical": 8,
+      "python_version": "3.14.3",
+      "python_compiler": "MSC v.1944 64 bit (AMD64)",
+      "timestamp": "2026-09-30 21:26:03"
+    },
+    "routing_update": {
+      "reason": "Riesgo del grafo agregado por corredor (ambos sentidos); antes un sentido quedaba con riesgo 0",
+      "hardware": {
+        "os": "Windows-10-10.0.26200-SP0",
+        "system": "Windows",
+        "release": "10",
+        "architecture": "64bit",
+        "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+        "cpu_count_logical": 8,
+        "python_version": "3.11.4",
+        "python_compiler": "MSC v.1934 64 bit (AMD64)",
+        "timestamp": "2026-11-02 22:35:00"
+      }
+    }
+  },
+  "sorting": {
+    "merge_sort": [
+      {
+        "algorithm": "merge_sort",
+        "size": 1000,
+        "distribution": "random",
+        "time_ms_mean": 10.102,
+        "time_ms_std": 2.069,
+        "comparisons": 8696,
+        "memory_peak_kb": 17.2,
+        "hidden_constant_c_ns": 1013.67,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000,
+        "distribution": "sorted",
+        "time_ms_mean": 10.38,
+        "time_ms_std": 0.773,
+        "comparisons": 4932,
+        "memory_peak_kb": 20.01,
+        "hidden_constant_c_ns": 1041.56,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000,
+        "distribution": "reversed",
+        "time_ms_mean": 7.992,
+        "time_ms_std": 1.26,
+        "comparisons": 5114,
+        "memory_peak_kb": 20.01,
+        "hidden_constant_c_ns": 801.94,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000,
+        "distribution": "duplicates",
+        "time_ms_mean": 8.261,
+        "time_ms_std": 0.586,
+        "comparisons": 8678,
+        "memory_peak_kb": 17.22,
+        "hidden_constant_c_ns": 828.94,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 10000,
+        "distribution": "random",
+        "time_ms_mean": 159.303,
+        "time_ms_std": 28.378,
+        "comparisons": 120448,
+        "memory_peak_kb": 165.3,
+        "hidden_constant_c_ns": 1198.87,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 10000,
+        "distribution": "sorted",
+        "time_ms_mean": 86.155,
+        "time_ms_std": 6.49,
+        "comparisons": 64608,
+        "memory_peak_kb": 195.79,
+        "hidden_constant_c_ns": 648.38,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 10000,
+        "distribution": "reversed",
+        "time_ms_mean": 90.434,
+        "time_ms_std": 2.992,
+        "comparisons": 71074,
+        "memory_peak_kb": 195.79,
+        "hidden_constant_c_ns": 680.58,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 10000,
+        "distribution": "duplicates",
+        "time_ms_mean": 128.363,
+        "time_ms_std": 4.938,
+        "comparisons": 120451,
+        "memory_peak_kb": 165.31,
+        "hidden_constant_c_ns": 966.03,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 50000,
+        "distribution": "random",
+        "time_ms_mean": 734.096,
+        "time_ms_std": 82.001,
+        "comparisons": 718084,
+        "memory_peak_kb": 862.14,
+        "hidden_constant_c_ns": 940.57,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 50000,
+        "distribution": "sorted",
+        "time_ms_mean": 435.678,
+        "time_ms_std": 6.329,
+        "comparisons": 382512,
+        "memory_peak_kb": 977.11,
+        "hidden_constant_c_ns": 558.22,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 50000,
+        "distribution": "reversed",
+        "time_ms_mean": 501.204,
+        "time_ms_std": 31.871,
+        "comparisons": 420395,
+        "memory_peak_kb": 977.05,
+        "hidden_constant_c_ns": 642.17,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 50000,
+        "distribution": "duplicates",
+        "time_ms_mean": 720.45,
+        "time_ms_std": 143.15,
+        "comparisons": 718155,
+        "memory_peak_kb": 862.25,
+        "hidden_constant_c_ns": 923.08,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 100000,
+        "distribution": "random",
+        "time_ms_mean": 1653.868,
+        "time_ms_std": 309.636,
+        "comparisons": 1536122,
+        "memory_peak_kb": 1686.75,
+        "hidden_constant_c_ns": 995.73,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 100000,
+        "distribution": "sorted",
+        "time_ms_mean": 1247.425,
+        "time_ms_std": 22.091,
+        "comparisons": 815024,
+        "memory_peak_kb": 1953.67,
+        "hidden_constant_c_ns": 751.02,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 100000,
+        "distribution": "reversed",
+        "time_ms_mean": 1099.803,
+        "time_ms_std": 250.127,
+        "comparisons": 897835,
+        "memory_peak_kb": 1953.46,
+        "hidden_constant_c_ns": 662.15,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 100000,
+        "distribution": "duplicates",
+        "time_ms_mean": 1659.201,
+        "time_ms_std": 132.791,
+        "comparisons": 1536120,
+        "memory_peak_kb": 1686.75,
+        "hidden_constant_c_ns": 998.94,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 500000,
+        "distribution": "random",
+        "time_ms_mean": 9108.068,
+        "time_ms_std": 0.0,
+        "comparisons": 8836661,
+        "memory_peak_kb": 8084.68,
+        "hidden_constant_c_ns": 962.21,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 500000,
+        "distribution": "sorted",
+        "time_ms_mean": 7109.04,
+        "time_ms_std": 0.0,
+        "comparisons": 4644797,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 751.02,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 500000,
+        "distribution": "reversed",
+        "time_ms_mean": 6267.74,
+        "time_ms_std": 0.0,
+        "comparisons": 5116734,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 662.15,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 500000,
+        "distribution": "duplicates",
+        "time_ms_mean": 9455.74,
+        "time_ms_std": 0.0,
+        "comparisons": 8754301,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 998.94,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000000,
+        "distribution": "random",
+        "time_ms_mean": 19178.35,
+        "time_ms_std": 0.0,
+        "comparisons": 18606859,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 962.21,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000000,
+        "distribution": "sorted",
+        "time_ms_mean": 14969.1,
+        "time_ms_std": 0.0,
+        "comparisons": 9780287,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 751.02,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000000,
+        "distribution": "reversed",
+        "time_ms_mean": 13197.63,
+        "time_ms_std": 0.0,
+        "comparisons": 10774018,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 662.15,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "merge_sort",
+        "size": 1000000,
+        "distribution": "duplicates",
+        "time_ms_mean": 19910.42,
+        "time_ms_std": 0.0,
+        "comparisons": 18433438,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 998.94,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      }
+    ],
+    "quick_sort": [
+      {
+        "algorithm": "quick_sort",
+        "size": 1000,
+        "distribution": "random",
+        "time_ms_mean": 5.647,
+        "time_ms_std": 0.644,
+        "comparisons": 15964,
+        "memory_peak_kb": 7.96,
+        "hidden_constant_c_ns": 566.64,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000,
+        "distribution": "sorted",
+        "time_ms_mean": 5.393,
+        "time_ms_std": 0.309,
+        "comparisons": 14117,
+        "memory_peak_kb": 8.02,
+        "hidden_constant_c_ns": 541.15,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000,
+        "distribution": "reversed",
+        "time_ms_mean": 4.85,
+        "time_ms_std": 0.086,
+        "comparisons": 14118,
+        "memory_peak_kb": 8.02,
+        "hidden_constant_c_ns": 486.67,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000,
+        "distribution": "duplicates",
+        "time_ms_mean": 7.157,
+        "time_ms_std": 1.589,
+        "comparisons": 16137,
+        "memory_peak_kb": 7.96,
+        "hidden_constant_c_ns": 718.16,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 10000,
+        "distribution": "random",
+        "time_ms_mean": 78.935,
+        "time_ms_std": 1.802,
+        "comparisons": 201979,
+        "memory_peak_kb": 78.34,
+        "hidden_constant_c_ns": 594.05,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 10000,
+        "distribution": "sorted",
+        "time_ms_mean": 53.766,
+        "time_ms_std": 1.81,
+        "comparisons": 177784,
+        "memory_peak_kb": 78.34,
+        "hidden_constant_c_ns": 404.63,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 10000,
+        "distribution": "reversed",
+        "time_ms_mean": 64.675,
+        "time_ms_std": 3.169,
+        "comparisons": 177780,
+        "memory_peak_kb": 78.34,
+        "hidden_constant_c_ns": 486.73,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 10000,
+        "distribution": "duplicates",
+        "time_ms_mean": 75.982,
+        "time_ms_std": 6.209,
+        "comparisons": 208328,
+        "memory_peak_kb": 78.34,
+        "hidden_constant_c_ns": 571.82,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 50000,
+        "distribution": "random",
+        "time_ms_mean": 418.396,
+        "time_ms_std": 17.037,
+        "comparisons": 1152787,
+        "memory_peak_kb": 390.84,
+        "hidden_constant_c_ns": 536.07,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 50000,
+        "distribution": "sorted",
+        "time_ms_mean": 393.692,
+        "time_ms_std": 52.939,
+        "comparisons": 1017285,
+        "memory_peak_kb": 390.87,
+        "hidden_constant_c_ns": 504.42,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 50000,
+        "distribution": "reversed",
+        "time_ms_mean": 408.003,
+        "time_ms_std": 45.101,
+        "comparisons": 1017286,
+        "memory_peak_kb": 390.87,
+        "hidden_constant_c_ns": 522.76,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 50000,
+        "distribution": "duplicates",
+        "time_ms_mean": 453.193,
+        "time_ms_std": 33.637,
+        "comparisons": 1157209,
+        "memory_peak_kb": 390.84,
+        "hidden_constant_c_ns": 580.66,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 100000,
+        "distribution": "random",
+        "time_ms_mean": 843.894,
+        "time_ms_std": 74.864,
+        "comparisons": 2388133,
+        "memory_peak_kb": 781.46,
+        "hidden_constant_c_ns": 508.07,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 100000,
+        "distribution": "sorted",
+        "time_ms_mean": 705.615,
+        "time_ms_std": 30.931,
+        "comparisons": 2143156,
+        "memory_peak_kb": 781.49,
+        "hidden_constant_c_ns": 424.82,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 100000,
+        "distribution": "reversed",
+        "time_ms_mean": 812.144,
+        "time_ms_std": 13.841,
+        "comparisons": 2143084,
+        "memory_peak_kb": 781.49,
+        "hidden_constant_c_ns": 488.96,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 100000,
+        "distribution": "duplicates",
+        "time_ms_mean": 756.149,
+        "time_ms_std": 13.973,
+        "comparisons": 2433847,
+        "memory_peak_kb": 781.46,
+        "hidden_constant_c_ns": 455.25,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 500000,
+        "distribution": "random",
+        "time_ms_mean": 5683.547,
+        "time_ms_std": 0.0,
+        "comparisons": 13555939,
+        "memory_peak_kb": 3906.49,
+        "hidden_constant_c_ns": 600.43,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 500000,
+        "distribution": "sorted",
+        "time_ms_mean": 4277.708,
+        "time_ms_std": 0.0,
+        "comparisons": 11556126,
+        "memory_peak_kb": 3906.52,
+        "hidden_constant_c_ns": 451.91,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 500000,
+        "distribution": "reversed",
+        "time_ms_mean": 4441.135,
+        "time_ms_std": 0.0,
+        "comparisons": 11556127,
+        "memory_peak_kb": 3906.52,
+        "hidden_constant_c_ns": 469.18,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 500000,
+        "distribution": "duplicates",
+        "time_ms_mean": 5783.823,
+        "time_ms_std": 0.0,
+        "comparisons": 12642826,
+        "memory_peak_kb": 3906.52,
+        "hidden_constant_c_ns": 611.02,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000000,
+        "distribution": "random",
+        "time_ms_mean": 12474.828,
+        "time_ms_std": 0.0,
+        "comparisons": 28954171,
+        "memory_peak_kb": 7812.74,
+        "hidden_constant_c_ns": 625.88,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000000,
+        "distribution": "sorted",
+        "time_ms_mean": 9447.922,
+        "time_ms_std": 0.0,
+        "comparisons": 24031838,
+        "memory_peak_kb": 7812.77,
+        "hidden_constant_c_ns": 474.02,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000000,
+        "distribution": "reversed",
+        "time_ms_mean": 9127.842,
+        "time_ms_std": 0.0,
+        "comparisons": 24031839,
+        "memory_peak_kb": 7812.77,
+        "hidden_constant_c_ns": 457.96,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "quick_sort",
+        "size": 1000000,
+        "distribution": "duplicates",
+        "time_ms_mean": 10028.358,
+        "time_ms_std": 0.0,
+        "comparisons": 26110175,
+        "memory_peak_kb": 7812.77,
+        "hidden_constant_c_ns": 503.14,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      }
+    ],
+    "heap_sort": [
+      {
+        "algorithm": "heap_sort",
+        "size": 1000,
+        "distribution": "random",
+        "time_ms_mean": 11.941,
+        "time_ms_std": 1.066,
+        "comparisons": 16822,
+        "memory_peak_kb": 8.41,
+        "hidden_constant_c_ns": 1198.2,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000,
+        "distribution": "sorted",
+        "time_ms_mean": 11.238,
+        "time_ms_std": 1.276,
+        "comparisons": 17551,
+        "memory_peak_kb": 8.41,
+        "hidden_constant_c_ns": 1127.66,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000,
+        "distribution": "reversed",
+        "time_ms_mean": 8.981,
+        "time_ms_std": 1.691,
+        "comparisons": 15989,
+        "memory_peak_kb": 8.41,
+        "hidden_constant_c_ns": 901.18,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000,
+        "distribution": "duplicates",
+        "time_ms_mean": 13.721,
+        "time_ms_std": 1.786,
+        "comparisons": 16848,
+        "memory_peak_kb": 8.41,
+        "hidden_constant_c_ns": 1376.81,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 10000,
+        "distribution": "random",
+        "time_ms_mean": 149.828,
+        "time_ms_std": 12.496,
+        "comparisons": 235431,
+        "memory_peak_kb": 78.73,
+        "hidden_constant_c_ns": 1127.57,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 10000,
+        "distribution": "sorted",
+        "time_ms_mean": 135.577,
+        "time_ms_std": 0.841,
+        "comparisons": 243047,
+        "memory_peak_kb": 78.8,
+        "hidden_constant_c_ns": 1020.32,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 10000,
+        "distribution": "reversed",
+        "time_ms_mean": 137.51,
+        "time_ms_std": 4.348,
+        "comparisons": 226626,
+        "memory_peak_kb": 78.8,
+        "hidden_constant_c_ns": 1034.87,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 10000,
+        "distribution": "duplicates",
+        "time_ms_mean": 147.03,
+        "time_ms_std": 13.565,
+        "comparisons": 235206,
+        "memory_peak_kb": 78.8,
+        "hidden_constant_c_ns": 1106.51,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 50000,
+        "distribution": "random",
+        "time_ms_mean": 1061.011,
+        "time_ms_std": 197.304,
+        "comparisons": 1409640,
+        "memory_peak_kb": 391.3,
+        "hidden_constant_c_ns": 1359.43,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 50000,
+        "distribution": "sorted",
+        "time_ms_mean": 914.929,
+        "time_ms_std": 22.782,
+        "comparisons": 1423544,
+        "memory_peak_kb": 391.3,
+        "hidden_constant_c_ns": 1172.26,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 50000,
+        "distribution": "reversed",
+        "time_ms_mean": 922.664,
+        "time_ms_std": 188.621,
+        "comparisons": 1363726,
+        "memory_peak_kb": 391.3,
+        "hidden_constant_c_ns": 1182.17,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 50000,
+        "distribution": "duplicates",
+        "time_ms_mean": 807.645,
+        "time_ms_std": 49.299,
+        "comparisons": 1409585,
+        "memory_peak_kb": 391.3,
+        "hidden_constant_c_ns": 1034.8,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 100000,
+        "distribution": "random",
+        "time_ms_mean": 2315.551,
+        "time_ms_std": 101.63,
+        "comparisons": 3020429,
+        "memory_peak_kb": 781.93,
+        "hidden_constant_c_ns": 1394.1,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 100000,
+        "distribution": "sorted",
+        "time_ms_mean": 1933.128,
+        "time_ms_std": 64.202,
+        "comparisons": 3009557,
+        "memory_peak_kb": 781.93,
+        "hidden_constant_c_ns": 1163.86,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 100000,
+        "distribution": "reversed",
+        "time_ms_mean": 1739.339,
+        "time_ms_std": 64.976,
+        "comparisons": 2920986,
+        "memory_peak_kb": 781.93,
+        "hidden_constant_c_ns": 1047.19,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 100000,
+        "distribution": "duplicates",
+        "time_ms_mean": 2076.187,
+        "time_ms_std": 131.437,
+        "comparisons": 3018977,
+        "memory_peak_kb": 781.93,
+        "hidden_constant_c_ns": 1249.99,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 500000,
+        "distribution": "random",
+        "time_ms_mean": 13278.61,
+        "time_ms_std": 0.0,
+        "comparisons": 17397779,
+        "memory_peak_kb": 3906.85,
+        "hidden_constant_c_ns": 1402.8,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 500000,
+        "distribution": "sorted",
+        "time_ms_mean": 11016.84,
+        "time_ms_std": 0.0,
+        "comparisons": 17151375,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 1163.86,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 500000,
+        "distribution": "reversed",
+        "time_ms_mean": 9912.44,
+        "time_ms_std": 0.0,
+        "comparisons": 16646611,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 1047.19,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 500000,
+        "distribution": "duplicates",
+        "time_ms_mean": 11832.13,
+        "time_ms_std": 0.0,
+        "comparisons": 17205059,
+        "memory_peak_kb": 32000.0,
+        "hidden_constant_c_ns": 1249.99,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000000,
+        "distribution": "random",
+        "time_ms_mean": 27960.02,
+        "time_ms_std": 0.0,
+        "comparisons": 36633522,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 1402.8,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000000,
+        "distribution": "sorted",
+        "time_ms_mean": 23197.54,
+        "time_ms_std": 0.0,
+        "comparisons": 36114683,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 1163.86,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000000,
+        "distribution": "reversed",
+        "time_ms_mean": 20872.07,
+        "time_ms_std": 0.0,
+        "comparisons": 35051830,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 1047.19,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      },
+      {
+        "algorithm": "heap_sort",
+        "size": 1000000,
+        "distribution": "duplicates",
+        "time_ms_mean": 24914.25,
+        "time_ms_std": 0.0,
+        "comparisons": 36227723,
+        "memory_peak_kb": 64000.0,
+        "hidden_constant_c_ns": 1249.99,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": true
+      }
+    ],
+    "counting_sort": [
+      {
+        "algorithm": "counting_sort",
+        "size": 1000,
+        "distribution": "random",
+        "time_ms_mean": 0.527,
+        "time_ms_std": 0.125,
+        "comparisons": 2000,
+        "memory_peak_kb": 10.0,
+        "hidden_constant_c_ns": 47.91,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000,
+        "distribution": "sorted",
+        "time_ms_mean": 0.465,
+        "time_ms_std": 0.058,
+        "comparisons": 2000,
+        "memory_peak_kb": 10.0,
+        "hidden_constant_c_ns": 42.27,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000,
+        "distribution": "reversed",
+        "time_ms_mean": 0.429,
+        "time_ms_std": 0.015,
+        "comparisons": 2000,
+        "memory_peak_kb": 10.0,
+        "hidden_constant_c_ns": 39.0,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000,
+        "distribution": "duplicates",
+        "time_ms_mean": 0.585,
+        "time_ms_std": 0.114,
+        "comparisons": 2000,
+        "memory_peak_kb": 10.0,
+        "hidden_constant_c_ns": 53.18,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 10000,
+        "distribution": "random",
+        "time_ms_mean": 1.924,
+        "time_ms_std": 0.118,
+        "comparisons": 20000,
+        "memory_peak_kb": 85.71,
+        "hidden_constant_c_ns": 96.2,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 10000,
+        "distribution": "sorted",
+        "time_ms_mean": 2.126,
+        "time_ms_std": 0.155,
+        "comparisons": 20000,
+        "memory_peak_kb": 85.71,
+        "hidden_constant_c_ns": 106.3,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 10000,
+        "distribution": "reversed",
+        "time_ms_mean": 2.269,
+        "time_ms_std": 0.267,
+        "comparisons": 20000,
+        "memory_peak_kb": 85.71,
+        "hidden_constant_c_ns": 113.45,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 10000,
+        "distribution": "duplicates",
+        "time_ms_mean": 2.234,
+        "time_ms_std": 0.127,
+        "comparisons": 20000,
+        "memory_peak_kb": 85.71,
+        "hidden_constant_c_ns": 111.7,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 50000,
+        "distribution": "random",
+        "time_ms_mean": 9.899,
+        "time_ms_std": 0.451,
+        "comparisons": 100000,
+        "memory_peak_kb": 422.16,
+        "hidden_constant_c_ns": 164.98,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 50000,
+        "distribution": "sorted",
+        "time_ms_mean": 10.066,
+        "time_ms_std": 0.707,
+        "comparisons": 100000,
+        "memory_peak_kb": 422.16,
+        "hidden_constant_c_ns": 167.77,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 50000,
+        "distribution": "reversed",
+        "time_ms_mean": 9.558,
+        "time_ms_std": 0.896,
+        "comparisons": 100000,
+        "memory_peak_kb": 422.16,
+        "hidden_constant_c_ns": 159.3,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 50000,
+        "distribution": "duplicates",
+        "time_ms_mean": 9.735,
+        "time_ms_std": 0.33,
+        "comparisons": 100000,
+        "memory_peak_kb": 422.13,
+        "hidden_constant_c_ns": 162.25,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 100000,
+        "distribution": "random",
+        "time_ms_mean": 22.341,
+        "time_ms_std": 1.261,
+        "comparisons": 200000,
+        "memory_peak_kb": 841.34,
+        "hidden_constant_c_ns": 203.1,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 100000,
+        "distribution": "sorted",
+        "time_ms_mean": 20.469,
+        "time_ms_std": 0.809,
+        "comparisons": 200000,
+        "memory_peak_kb": 841.34,
+        "hidden_constant_c_ns": 186.08,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 100000,
+        "distribution": "reversed",
+        "time_ms_mean": 27.263,
+        "time_ms_std": 0.055,
+        "comparisons": 200000,
+        "memory_peak_kb": 841.34,
+        "hidden_constant_c_ns": 247.85,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 100000,
+        "distribution": "duplicates",
+        "time_ms_mean": 21.873,
+        "time_ms_std": 1.622,
+        "comparisons": 200000,
+        "memory_peak_kb": 841.35,
+        "hidden_constant_c_ns": 198.85,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 500000,
+        "distribution": "random",
+        "time_ms_mean": 170.275,
+        "time_ms_std": 0.0,
+        "comparisons": 1000000,
+        "memory_peak_kb": 6299.68,
+        "hidden_constant_c_ns": 333.87,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 500000,
+        "distribution": "sorted",
+        "time_ms_mean": 168.172,
+        "time_ms_std": 0.0,
+        "comparisons": 1000000,
+        "memory_peak_kb": 6299.68,
+        "hidden_constant_c_ns": 329.75,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 500000,
+        "distribution": "reversed",
+        "time_ms_mean": 408.7,
+        "time_ms_std": 0.0,
+        "comparisons": 1000000,
+        "memory_peak_kb": 6299.65,
+        "hidden_constant_c_ns": 801.37,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 500000,
+        "distribution": "duplicates",
+        "time_ms_mean": 216.829,
+        "time_ms_std": 0.0,
+        "comparisons": 1000000,
+        "memory_peak_kb": 6299.65,
+        "hidden_constant_c_ns": 425.15,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000000,
+        "distribution": "random",
+        "time_ms_mean": 305.494,
+        "time_ms_std": 0.0,
+        "comparisons": 2000000,
+        "memory_peak_kb": 14112.18,
+        "hidden_constant_c_ns": 302.47,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000000,
+        "distribution": "sorted",
+        "time_ms_mean": 242.244,
+        "time_ms_std": 0.0,
+        "comparisons": 2000000,
+        "memory_peak_kb": 14112.18,
+        "hidden_constant_c_ns": 239.85,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000000,
+        "distribution": "reversed",
+        "time_ms_mean": 643.389,
+        "time_ms_std": 0.0,
+        "comparisons": 2000000,
+        "memory_peak_kb": 14112.15,
+        "hidden_constant_c_ns": 637.02,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      },
+      {
+        "algorithm": "counting_sort",
+        "size": 1000000,
+        "distribution": "duplicates",
+        "time_ms_mean": 424.128,
+        "time_ms_std": 0.0,
+        "comparisons": 2000000,
+        "memory_peak_kb": 14112.15,
+        "hidden_constant_c_ns": 419.93,
+        "theoretical_complexity": "O(n + k)",
+        "estimated": false
+      }
+    ],
+    "timsort": [
+      {
+        "algorithm": "timsort",
+        "size": 1000,
+        "distribution": "random",
+        "time_ms_mean": 0.118,
+        "time_ms_std": 0.002,
+        "comparisons": 4982,
+        "memory_peak_kb": 11.71,
+        "hidden_constant_c_ns": 11.84,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000,
+        "distribution": "sorted",
+        "time_ms_mean": 0.017,
+        "time_ms_std": 0.003,
+        "comparisons": 4982,
+        "memory_peak_kb": 7.9,
+        "hidden_constant_c_ns": 1.71,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000,
+        "distribution": "reversed",
+        "time_ms_mean": 0.019,
+        "time_ms_std": 0.003,
+        "comparisons": 4982,
+        "memory_peak_kb": 7.9,
+        "hidden_constant_c_ns": 1.91,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000,
+        "distribution": "duplicates",
+        "time_ms_mean": 0.238,
+        "time_ms_std": 0.054,
+        "comparisons": 4982,
+        "memory_peak_kb": 11.7,
+        "hidden_constant_c_ns": 23.88,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 10000,
+        "distribution": "random",
+        "time_ms_mean": 1.698,
+        "time_ms_std": 0.688,
+        "comparisons": 66438,
+        "memory_peak_kb": 117.21,
+        "hidden_constant_c_ns": 12.78,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 10000,
+        "distribution": "sorted",
+        "time_ms_mean": 0.057,
+        "time_ms_std": 0.005,
+        "comparisons": 66438,
+        "memory_peak_kb": 78.21,
+        "hidden_constant_c_ns": 0.43,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 10000,
+        "distribution": "reversed",
+        "time_ms_mean": 0.148,
+        "time_ms_std": 0.008,
+        "comparisons": 66438,
+        "memory_peak_kb": 78.21,
+        "hidden_constant_c_ns": 1.11,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 10000,
+        "distribution": "duplicates",
+        "time_ms_mean": 1.217,
+        "time_ms_std": 0.013,
+        "comparisons": 66438,
+        "memory_peak_kb": 117.2,
+        "hidden_constant_c_ns": 9.16,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 50000,
+        "distribution": "random",
+        "time_ms_mean": 13.859,
+        "time_ms_std": 1.8,
+        "comparisons": 390241,
+        "memory_peak_kb": 585.87,
+        "hidden_constant_c_ns": 17.76,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 50000,
+        "distribution": "sorted",
+        "time_ms_mean": 0.544,
+        "time_ms_std": 0.306,
+        "comparisons": 390241,
+        "memory_peak_kb": 390.71,
+        "hidden_constant_c_ns": 0.7,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 50000,
+        "distribution": "reversed",
+        "time_ms_mean": 0.912,
+        "time_ms_std": 0.303,
+        "comparisons": 390241,
+        "memory_peak_kb": 390.71,
+        "hidden_constant_c_ns": 1.17,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 50000,
+        "distribution": "duplicates",
+        "time_ms_mean": 9.019,
+        "time_ms_std": 0.537,
+        "comparisons": 390241,
+        "memory_peak_kb": 585.87,
+        "hidden_constant_c_ns": 11.56,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 100000,
+        "distribution": "random",
+        "time_ms_mean": 34.166,
+        "time_ms_std": 5.184,
+        "comparisons": 830482,
+        "memory_peak_kb": 1171.72,
+        "hidden_constant_c_ns": 20.57,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 100000,
+        "distribution": "sorted",
+        "time_ms_mean": 3.015,
+        "time_ms_std": 2.408,
+        "comparisons": 830482,
+        "memory_peak_kb": 781.34,
+        "hidden_constant_c_ns": 1.82,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 100000,
+        "distribution": "reversed",
+        "time_ms_mean": 6.633,
+        "time_ms_std": 0.448,
+        "comparisons": 830482,
+        "memory_peak_kb": 781.34,
+        "hidden_constant_c_ns": 3.99,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 100000,
+        "distribution": "duplicates",
+        "time_ms_mean": 19.118,
+        "time_ms_std": 0.047,
+        "comparisons": 830482,
+        "memory_peak_kb": 1171.71,
+        "hidden_constant_c_ns": 11.51,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 500000,
+        "distribution": "random",
+        "time_ms_mean": 305.317,
+        "time_ms_std": 0.0,
+        "comparisons": 4732892,
+        "memory_peak_kb": 5859.28,
+        "hidden_constant_c_ns": 32.25,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 500000,
+        "distribution": "sorted",
+        "time_ms_mean": 26.596,
+        "time_ms_std": 0.0,
+        "comparisons": 4732892,
+        "memory_peak_kb": 3906.34,
+        "hidden_constant_c_ns": 2.81,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 500000,
+        "distribution": "reversed",
+        "time_ms_mean": 33.056,
+        "time_ms_std": 0.0,
+        "comparisons": 4732892,
+        "memory_peak_kb": 3906.31,
+        "hidden_constant_c_ns": 3.49,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 500000,
+        "distribution": "duplicates",
+        "time_ms_mean": 71.238,
+        "time_ms_std": 0.0,
+        "comparisons": 4732892,
+        "memory_peak_kb": 5834.45,
+        "hidden_constant_c_ns": 7.53,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000000,
+        "distribution": "random",
+        "time_ms_mean": 716.621,
+        "time_ms_std": 0.0,
+        "comparisons": 9965784,
+        "memory_peak_kb": 11718.55,
+        "hidden_constant_c_ns": 35.95,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000000,
+        "distribution": "sorted",
+        "time_ms_mean": 37.689,
+        "time_ms_std": 0.0,
+        "comparisons": 9965784,
+        "memory_peak_kb": 7812.56,
+        "hidden_constant_c_ns": 1.89,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000000,
+        "distribution": "reversed",
+        "time_ms_mean": 45.536,
+        "time_ms_std": 0.0,
+        "comparisons": 9965784,
+        "memory_peak_kb": 7812.56,
+        "hidden_constant_c_ns": 2.28,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      },
+      {
+        "algorithm": "timsort",
+        "size": 1000000,
+        "distribution": "duplicates",
+        "time_ms_mean": 123.652,
+        "time_ms_std": 0.0,
+        "comparisons": 9965784,
+        "memory_peak_kb": 11651.16,
+        "hidden_constant_c_ns": 6.2,
+        "theoretical_complexity": "O(n log n)",
+        "estimated": false
+      }
+    ]
+  },
+  "spatial": {
+    "kdtree_vs_linear": [
+      {
+        "size": 1000,
+        "queries": 50,
+        "k": 5,
+        "build_time_ms": 8.71,
+        "kdtree_query_time_ms": 2.32,
+        "linear_query_time_ms": 87.06,
+        "speedup_factor": 37.57,
+        "memory_tree_kb": 117.93,
+        "theoretical_speedup": 100.3
+      },
+      {
+        "size": 10000,
+        "queries": 50,
+        "k": 5,
+        "build_time_ms": 136.53,
+        "kdtree_query_time_ms": 6.69,
+        "linear_query_time_ms": 1202.17,
+        "speedup_factor": 179.65,
+        "memory_tree_kb": 1172.76,
+        "theoretical_speedup": 752.6
+      },
+      {
+        "size": 50000,
+        "queries": 50,
+        "k": 5,
+        "build_time_ms": 891.97,
+        "kdtree_query_time_ms": 3.82,
+        "linear_query_time_ms": 4497.87,
+        "speedup_factor": 1176.99,
+        "memory_tree_kb": 5860.31,
+        "theoretical_speedup": 3203.1
+      },
+      {
+        "size": 100000,
+        "queries": 50,
+        "k": 5,
+        "build_time_ms": 1473.25,
+        "kdtree_query_time_ms": 6.08,
+        "linear_query_time_ms": 8988.77,
+        "speedup_factor": 1478.85,
+        "memory_tree_kb": 11719.62,
+        "theoretical_speedup": 6020.6
+      },
+      {
+        "size": 200000,
+        "queries": 50,
+        "k": 5,
+        "build_time_ms": 3342.02,
+        "kdtree_query_time_ms": 4.59,
+        "linear_query_time_ms": 18454.68,
+        "speedup_factor": 4018.26,
+        "memory_tree_kb": 23438.49,
+        "theoretical_speedup": 11357.4
+      }
+    ]
+  },
+  "clustering": {
+    "dbscan_scaling": [
+      {
+        "size": 1000,
+        "eps_meters": 200.0,
+        "min_samples": 15,
+        "time_ms": 69.71,
+        "total_clusters": 2,
+        "noise_points": 964,
+        "noise_percentage": 96.4
+      },
+      {
+        "size": 2500,
+        "eps_meters": 200.0,
+        "min_samples": 15,
+        "time_ms": 369.79,
+        "total_clusters": 20,
+        "noise_points": 1867,
+        "noise_percentage": 74.68
+      },
+      {
+        "size": 5000,
+        "eps_meters": 200.0,
+        "min_samples": 15,
+        "time_ms": 814.76,
+        "total_clusters": 52,
+        "noise_points": 2232,
+        "noise_percentage": 44.64
+      },
+      {
+        "size": 10000,
+        "eps_meters": 200.0,
+        "min_samples": 15,
+        "time_ms": 2279.97,
+        "total_clusters": 57,
+        "noise_points": 1915,
+        "noise_percentage": 19.15
+      },
+      {
+        "size": 25000,
+        "eps_meters": 200.0,
+        "min_samples": 15,
+        "time_ms": 11716.95,
+        "total_clusters": 40,
+        "noise_points": 906,
+        "noise_percentage": 3.62
+      }
+    ]
+  },
+  "routing": {
+    "routing_pairs": [
+      {
+        "origin": 1,
+        "destination": 26,
+        "description": "Av. Oriental con San Juan → Av. Las Vegas con Cl 4 Sur",
+        "dijkstra": {
+          "time_ms": 0.226,
+          "nodes_explored": 42,
+          "distance_meters": 6483.3,
+          "risk_score": 11758.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.099,
+          "nodes_explored": 4,
+          "distance_meters": 6483.3,
+          "risk_score": 11758.0
+        },
+        "astar_safest": {
+          "time_ms": 0.062,
+          "nodes_explored": 10,
+          "distance_meters": 6483.3,
+          "risk_score": 11758.0,
+          "risk_reduction_pct": 0.0
+        },
+        "astar_pruning_pct": 90.5
+      },
+      {
+        "origin": 2,
+        "destination": 28,
+        "description": "San Juan con Carabobo → Av. Guayabal con Cl 30",
+        "dijkstra": {
+          "time_ms": 0.101,
+          "nodes_explored": 19,
+          "distance_meters": 3928.0,
+          "risk_score": 23933.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.081,
+          "nodes_explored": 5,
+          "distance_meters": 3928.0,
+          "risk_score": 23933.0
+        },
+        "astar_safest": {
+          "time_ms": 0.316,
+          "nodes_explored": 29,
+          "distance_meters": 3973.9,
+          "risk_score": 19210.0,
+          "risk_reduction_pct": 19.7
+        },
+        "astar_pruning_pct": 73.7
+      },
+      {
+        "origin": 3,
+        "destination": 16,
+        "description": "Av. Oriental con Colombia → Estadio / Colombia con Cra 70",
+        "dijkstra": {
+          "time_ms": 0.058,
+          "nodes_explored": 12,
+          "distance_meters": 3002.4,
+          "risk_score": 16952.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.066,
+          "nodes_explored": 5,
+          "distance_meters": 3002.4,
+          "risk_score": 16952.0
+        },
+        "astar_safest": {
+          "time_ms": 0.1,
+          "nodes_explored": 10,
+          "distance_meters": 3002.4,
+          "risk_score": 16952.0,
+          "risk_reduction_pct": 0.0
+        },
+        "astar_pruning_pct": 58.3
+      },
+      {
+        "origin": 4,
+        "destination": 18,
+        "description": "Colombia con Carabobo → Glorieta de Bulerías",
+        "dijkstra": {
+          "time_ms": 0.166,
+          "nodes_explored": 31,
+          "distance_meters": 4563.8,
+          "risk_score": 15393.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.105,
+          "nodes_explored": 10,
+          "distance_meters": 4563.8,
+          "risk_score": 15393.0
+        },
+        "astar_safest": {
+          "time_ms": 0.154,
+          "nodes_explored": 18,
+          "distance_meters": 4563.8,
+          "risk_score": 14622.0,
+          "risk_reduction_pct": 5.0
+        },
+        "astar_pruning_pct": 67.7
+      },
+      {
+        "origin": 5,
+        "destination": 23,
+        "description": "San Diego → Av. Las Vegas con Cl 10",
+        "dijkstra": {
+          "time_ms": 0.085,
+          "nodes_explored": 17,
+          "distance_meters": 4072.1,
+          "risk_score": 3155.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.045,
+          "nodes_explored": 2,
+          "distance_meters": 4072.1,
+          "risk_score": 3155.0
+        },
+        "astar_safest": {
+          "time_ms": 0.051,
+          "nodes_explored": 3,
+          "distance_meters": 4072.1,
+          "risk_score": 3155.0,
+          "risk_reduction_pct": 0.0
+        },
+        "astar_pruning_pct": 88.2
+      },
+      {
+        "origin": 8,
+        "destination": 25,
+        "description": "Autopista Sur con Colombia → Santa Fe / Milla de Oro",
+        "dijkstra": {
+          "time_ms": 0.197,
+          "nodes_explored": 45,
+          "distance_meters": 8284.1,
+          "risk_score": 29300.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.224,
+          "nodes_explored": 25,
+          "distance_meters": 8284.1,
+          "risk_score": 29300.0
+        },
+        "astar_safest": {
+          "time_ms": 0.317,
+          "nodes_explored": 44,
+          "distance_meters": 11003.0,
+          "risk_score": 16021.0,
+          "risk_reduction_pct": 45.3
+        },
+        "astar_pruning_pct": 44.4
+      },
+      {
+        "origin": 9,
+        "destination": 21,
+        "description": "Punto Cero Norte → Cl 30 con Cra 65",
+        "dijkstra": {
+          "time_ms": 0.123,
+          "nodes_explored": 33,
+          "distance_meters": 6196.4,
+          "risk_score": 31868.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.167,
+          "nodes_explored": 18,
+          "distance_meters": 6196.4,
+          "risk_score": 31868.0
+        },
+        "astar_safest": {
+          "time_ms": 0.234,
+          "nodes_explored": 35,
+          "distance_meters": 7426.1,
+          "risk_score": 17409.0,
+          "risk_reduction_pct": 45.4
+        },
+        "astar_pruning_pct": 45.5
+      },
+      {
+        "origin": 10,
+        "destination": 15,
+        "description": "Av. Regional con Calle 33 → San Juan con Cra 80",
+        "dijkstra": {
+          "time_ms": 0.113,
+          "nodes_explored": 26,
+          "distance_meters": 4276.8,
+          "risk_score": 8494.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.096,
+          "nodes_explored": 8,
+          "distance_meters": 4276.8,
+          "risk_score": 8494.0
+        },
+        "astar_safest": {
+          "time_ms": 0.141,
+          "nodes_explored": 14,
+          "distance_meters": 4276.8,
+          "risk_score": 6993.0,
+          "risk_reduction_pct": 17.7
+        },
+        "astar_pruning_pct": 69.2
+      },
+      {
+        "origin": 11,
+        "destination": 20,
+        "description": "Puente 4 Sur → Belén Parque",
+        "dijkstra": {
+          "time_ms": 0.11,
+          "nodes_explored": 28,
+          "distance_meters": 6267.9,
+          "risk_score": 6331.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.078,
+          "nodes_explored": 7,
+          "distance_meters": 6267.9,
+          "risk_score": 6331.0
+        },
+        "astar_safest": {
+          "time_ms": 0.112,
+          "nodes_explored": 11,
+          "distance_meters": 6267.9,
+          "risk_score": 6331.0,
+          "risk_reduction_pct": 0.0
+        },
+        "astar_pruning_pct": 75.0
+      },
+      {
+        "origin": 12,
+        "destination": 24,
+        "description": "La Aguacatala → Provenza",
+        "dijkstra": {
+          "time_ms": 0.044,
+          "nodes_explored": 7,
+          "distance_meters": 2820.5,
+          "risk_score": 7727.0
+        },
+        "astar_shortest": {
+          "time_ms": 0.071,
+          "nodes_explored": 6,
+          "distance_meters": 2820.5,
+          "risk_score": 7727.0
+        },
+        "astar_safest": {
+          "time_ms": 0.086,
+          "nodes_explored": 9,
+          "distance_meters": 2820.5,
+          "risk_score": 7727.0,
+          "risk_reduction_pct": 0.0
+        },
+        "astar_pruning_pct": 14.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+=== METADATOS DE DESCARGA (AUDITORÍA PPI) ===
+Fecha de descarga: 2026-09-29T11:55:49.182567
+Fuente oficial: MEData / Alcaldía de Medellín / datos.gov.co (ID 9wqu-juqb)
+URL directa: http://medata.gov.co/sites/default/files/distribution/1-023-25-000094/incidentes_viales.csv
+Bytes descargados: 62328792
+Checksum SHA-256: c5a9b243ce1b217f0bfc4cec248777832aced1801b5fb37db3598a36d3d7e71e
+Ruta local: d:\Proyecto Algoritmos\data\raw\incidentes_viales.csv

@@ -1,0 +1,385 @@
+{
+  "nodes": [
+    {
+      "id": "inicio",
+      "type": "file",
+      "file": "00 - Inicio.md",
+      "x": -600,
+      "y": -600,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "00-Inicio/MOC-Principal.md",
+      "x": -180,
+      "y": -600,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "nota-guia",
+      "type": "text",
+      "text": "## 🗺️ Mapa de Conocimiento — AburráSegura\nCada tarjeta es una nota: **doble clic** para abrirla.\nLas conexiones muestran el flujo desde la ingesta de datos hasta el enrutamiento y la certificación QA.",
+      "x": 240,
+      "y": -600,
+      "width": 450,
+      "height": 120
+    },
+    {
+      "id": "g-vision",
+      "type": "group",
+      "x": -650,
+      "y": -420,
+      "width": 440,
+      "height": 480,
+      "label": "🎯 01 · Visión, Requisitos e Investigación",
+      "color": "4"
+    },
+    {
+      "id": "matriz",
+      "type": "file",
+      "file": "01-Documento-guia-y-requisitos/Matriz-Requisitos.md",
+      "x": -620,
+      "y": -370,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "ruta",
+      "type": "file",
+      "file": "00-Inicio/Hoja-de-Ruta-Nuevo-Horizonte.md",
+      "x": -620,
+      "y": -260,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "antecedentes",
+      "type": "file",
+      "file": "02-Investigacion/Antecedentes-Academicos.md",
+      "x": -620,
+      "y": -150,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "historial",
+      "type": "file",
+      "file": "Historial de cambios.md",
+      "x": -620,
+      "y": -40,
+      "width": 380,
+      "height": 80
+    },
+    {
+      "id": "g-datos",
+      "type": "group",
+      "x": -170,
+      "y": -420,
+      "width": 440,
+      "height": 480,
+      "label": "📊 02 · Ingesta y Datos Espaciales",
+      "color": "6"
+    },
+    {
+      "id": "fuentes",
+      "type": "file",
+      "file": "02-Investigacion/Fuentes-y-Matriz-Decision.md",
+      "x": -140,
+      "y": -370,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "diccionario",
+      "type": "file",
+      "file": "03-Datos/Diccionario-Variables.md",
+      "x": -140,
+      "y": -240,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "pipeline",
+      "type": "file",
+      "file": "03-Datos/Pipeline-Limpieza.md",
+      "x": -140,
+      "y": -110,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "g-algo",
+      "type": "group",
+      "x": 310,
+      "y": -420,
+      "width": 440,
+      "height": 520,
+      "label": "🧠 03 · Algoritmos y Complejidad",
+      "color": "3"
+    },
+    {
+      "id": "kdtree",
+      "type": "file",
+      "file": "04-Algoritmos/Estructuras-Espaciales-KDTree.md",
+      "x": 340,
+      "y": -370,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "clustering",
+      "type": "file",
+      "file": "04-Algoritmos/Clustering-DBSCAN-KMeans.md",
+      "x": 340,
+      "y": -240,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "dijkstra",
+      "type": "file",
+      "file": "04-Algoritmos/Grafos-Dijkstra-AStar.md",
+      "x": 340,
+      "y": -110,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "laboratorio",
+      "type": "file",
+      "file": "04-Algoritmos/Laboratorio-Jerarquia-Asintotica.md",
+      "x": 340,
+      "y": 20,
+      "width": 380,
+      "height": 100
+    },
+    {
+      "id": "g-arq",
+      "type": "group",
+      "x": -410,
+      "y": 150,
+      "width": 440,
+      "height": 480,
+      "label": "🏗️ 04 · Arquitectura, API y Frontend",
+      "color": "5"
+    },
+    {
+      "id": "adr002",
+      "type": "file",
+      "file": "05-Arquitectura-y-ADRs/ADR-002-Arquitectura-FastAPI-React.md",
+      "x": -380,
+      "y": 200,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "adr005",
+      "type": "file",
+      "file": "05-Arquitectura-y-ADRs/ADR-005-Replanteamiento-Alcance-Dijkstra-Puntos-Criticos-y-Laboratorio-Complejidad.md",
+      "x": -380,
+      "y": 310,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "backend",
+      "type": "file",
+      "file": "06-Backend-API/Diseno-Backend-API.md",
+      "x": -380,
+      "y": 420,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "frontend",
+      "type": "file",
+      "file": "07-Frontend/Diseno-Frontend-UI.md",
+      "x": -380,
+      "y": 530,
+      "width": 380,
+      "height": 80
+    },
+    {
+      "id": "g-qa",
+      "type": "group",
+      "x": 70,
+      "y": 150,
+      "width": 440,
+      "height": 580,
+      "label": "🧪 05 · Calidad (QA), Resultados y Sustentación",
+      "color": "2"
+    },
+    {
+      "id": "plan_qa",
+      "type": "file",
+      "file": "08-QA/Plan-Pruebas-QA.md",
+      "x": 100,
+      "y": 200,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "reporte_qa",
+      "type": "file",
+      "file": "08-QA/Reporte-Final-QA-Fase5.md",
+      "x": 100,
+      "y": 310,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "resultados",
+      "type": "file",
+      "file": "09-Resultados-y-conclusiones/Conclusiones-y-Resultados.md",
+      "x": 100,
+      "y": 420,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "manual",
+      "type": "file",
+      "file": "09-Resultados-y-conclusiones/Manual-Usuario-Prototipo.md",
+      "x": 100,
+      "y": 530,
+      "width": 380,
+      "height": 80
+    },
+    {
+      "id": "guion",
+      "type": "file",
+      "file": "09-Resultados-y-conclusiones/Guion-Sustentacion-Oral.md",
+      "x": 100,
+      "y": 630,
+      "width": 380,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "inicio",
+      "fromSide": "right",
+      "toNode": "moc",
+      "toSide": "left",
+      "label": "índice canónico"
+    },
+    {
+      "id": "e2",
+      "fromNode": "inicio",
+      "fromSide": "bottom",
+      "toNode": "matriz",
+      "toSide": "top",
+      "label": "requisitos R1-R10"
+    },
+    {
+      "id": "e3",
+      "fromNode": "fuentes",
+      "fromSide": "bottom",
+      "toNode": "diccionario",
+      "toSide": "top",
+      "label": "variables"
+    },
+    {
+      "id": "e4",
+      "fromNode": "diccionario",
+      "fromSide": "bottom",
+      "toNode": "pipeline",
+      "toSide": "top",
+      "label": "ETL"
+    },
+    {
+      "id": "e5",
+      "fromNode": "pipeline",
+      "fromSide": "right",
+      "toNode": "kdtree",
+      "toSide": "left",
+      "label": "indexación espacial"
+    },
+    {
+      "id": "e6",
+      "fromNode": "pipeline",
+      "fromSide": "right",
+      "toNode": "clustering",
+      "toSide": "left",
+      "label": "puntos críticos"
+    },
+    {
+      "id": "e7",
+      "fromNode": "kdtree",
+      "fromSide": "bottom",
+      "toNode": "dijkstra",
+      "toSide": "top",
+      "label": "vecino más cercano"
+    },
+    {
+      "id": "e8",
+      "fromNode": "clustering",
+      "fromSide": "bottom",
+      "toNode": "dijkstra",
+      "toSide": "top",
+      "label": "pesos de riesgo"
+    },
+    {
+      "id": "e9",
+      "fromNode": "dijkstra",
+      "fromSide": "bottom",
+      "toNode": "backend",
+      "toSide": "right",
+      "label": "servicio de rutas"
+    },
+    {
+      "id": "e10",
+      "fromNode": "laboratorio",
+      "fromSide": "bottom",
+      "toNode": "backend",
+      "toSide": "right",
+      "label": "benchmark API"
+    },
+    {
+      "id": "e11",
+      "fromNode": "backend",
+      "fromSide": "bottom",
+      "toNode": "frontend",
+      "toSide": "top",
+      "label": "REST API / Swagger"
+    },
+    {
+      "id": "e12",
+      "fromNode": "backend",
+      "fromSide": "right",
+      "toNode": "plan_qa",
+      "toSide": "left",
+      "label": "suite de pruebas"
+    },
+    {
+      "id": "e13",
+      "fromNode": "plan_qa",
+      "fromSide": "bottom",
+      "toNode": "reporte_qa",
+      "toSide": "top",
+      "label": "44/44 PASS"
+    },
+    {
+      "id": "e14",
+      "fromNode": "reporte_qa",
+      "fromSide": "bottom",
+      "toNode": "resultados",
+      "toSide": "top",
+      "label": "conclusiones"
+    },
+    {
+      "id": "e15",
+      "fromNode": "resultados",
+      "fromSide": "bottom",
+      "toNode": "guion",
+      "toSide": "top",
+      "label": "defensa oral"
+    }
+  ]
+}
